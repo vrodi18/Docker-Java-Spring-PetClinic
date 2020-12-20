@@ -11,7 +11,7 @@ docker build --tag=vrodionov/springapp .
 ```
 ## Run Container
 ```
-docker run -d -p 80:5000 vrodionov/springapp
+docker run -d -p 8080:8080 vrodionov/springapp
 ```
 
 Petclinic is a [Spring Boot](https://spring.io/guides/gs/spring-boot) application built using [Maven](https://spring.io/guides/gs/maven/). You can build a jar file and run it from the command line:
